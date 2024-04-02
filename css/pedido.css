@@ -1,0 +1,97 @@
+.parisienne-regular {
+	font-family: "Parisienne", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Parisienne", sans-serif;
+}
+
+.container {
+	height: 130vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+	background: linear-gradient(#121212, #212b46);
+}
+
+.cta {
+	gap: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.btn {
+	width: 140px;
+	height: 50px;
+	background: linear-gradient(to top, #fd052e53, #fd052e75, #fd052f);
+	color: var(--text-primary-color);
+	border-radius: 50px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+}
+.btn span {
+	font-size: 1.2rem;
+	/* text-transform: uppercase; */
+	letter-spacing: 1px;
+	transition: top 0.5s;
+}
+.btn-text-one {
+	font-family: sans-serif;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+.btn-text-two {
+	font-family: sans-serif;
+	position: absolute;
+	width: 100%;
+	top: 150%;
+	left: 0;
+	transform: translateY(-50%);
+}
+.btn:hover {
+	background: #fff;
+	color: var(--main-color);
+}
+.btn:hover .btn-text-one {
+	top: -100%;
+}
+.btn:hover .btn-text-two {
+	color: #121212;
+	top: 50%;
+}
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: var(--main-color);
+	border-radius: 20px;
+}
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+::selection {
+	background-color: var(--main-color);
+}
+
+h1 {
+	font-size: 100px;
+}
+
+h2 {
+	font-size: 80px;
+}
