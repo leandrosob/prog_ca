@@ -108,7 +108,7 @@
 }
 
 .button {
-	background: linear-gradient(#121212, #212b46) !important;
+	background: linear-gradient(to top, #fd052e53, #fd052e75, #fd052f) !important;
 	padding: 0px 15px;
 	height: 40px;
 	border-radius: 8px;
