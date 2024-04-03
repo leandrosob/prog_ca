@@ -133,3 +133,8 @@
 	font-size: 1.136rem;
 	text-decoration: underline;
 }
+
+span {
+    font-size: 0.75rem;
+    font-family: sans-serif;
+}
