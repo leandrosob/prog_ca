@@ -45,7 +45,7 @@ sim.addEventListener("click", () => {
 	Swal.fire({
 		title: "Te amo muito!!! 😍",
 		html: "Vamos ser os lindinhos mais lindos do mundo 💘",
-		timer: 2000,
+		timer: 4000,
 		timerProgressBar: true,
 		didOpen: () => {
 			// Swal.showLoading();
