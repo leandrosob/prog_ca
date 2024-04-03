@@ -11,7 +11,7 @@ btn.addEventListener("click", (e) => {
 	} else {
 		Swal.fire({
 			title: "Errou... 😢",
-			html: "Tenta novamente!",
+			html: "Dica, é quando nos vimos pela primeira vez",
 			timer: 2000,
 			timerProgressBar: true,
 			didOpen: () => {
