@@ -7,9 +7,9 @@
 }
 
 .container {
-	height: 120vh;
+	height: 100vh;
 	display: flex;
-	justify-content: center;
+	justify-content: normal;
 	align-items: center;
 	flex-direction: column;
 	background: linear-gradient(#121212, #212b46);
@@ -17,7 +17,8 @@
 }
 
 h1 {
-  font-size: 2.5rem;
+  	font-size: 2.5rem;
+	margin-top: 15rem;
 }
 
 h3 {
